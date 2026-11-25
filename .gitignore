@@ -1,0 +1,18 @@
+# Whitelist: ignore everything, then allow only the public course material
+/*
+!/.gitignore
+!/README.md
+!/00_SYLLABUS.md
+!/01_MARKET.md
+!/phase1/
+!/pdf/
+/pdf/*
+!/pdf/README.pdf
+!/pdf/00_SYLLABUS.pdf
+!/pdf/01_MARKET.pdf
+!/pdf/phase1/
+# personal session logs stay local
+session_log.md
+session_log.pdf
+# compiled Java
+*.class
